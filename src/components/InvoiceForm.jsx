@@ -14,7 +14,6 @@ import { addInvoice, updateInvoice } from "../redux/invoicesSlice";
 import { Link, useParams, useLocation, useNavigate } from "react-router-dom";
 import generateRandomId from "../utils/generateRandomId";
 import { useInvoiceListData } from "../redux/hooks";
-
 const InvoiceForm = () => {
   const dispatch = useDispatch();
   const params = useParams();

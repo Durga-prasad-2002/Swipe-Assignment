@@ -8,7 +8,6 @@ import { useNavigate } from "react-router-dom";
 import { useInvoiceListData } from "../redux/hooks";
 import { useDispatch } from "react-redux";
 import { deleteInvoice } from "../redux/invoicesSlice";
-
 const InvoiceList = () => {
   const { invoiceList, getOneInvoice } = useInvoiceListData();
   const isListEmpty = invoiceList.length === 0;
@@ -24,6 +23,8 @@ const InvoiceList = () => {
   };
 
   return (
+    <>
+    <Link className="bulklink" to='/bulkedit'><Button>BULK-EDIT</Button></Link>
     <Row>
       <Col className="mx-auto" xs={12} md={8} lg={9}>
         <h3 className="fw-bold pb-2 pb-md-4 text-center">Swipe Assignment</h3>
@@ -85,6 +86,7 @@ const InvoiceList = () => {
         </Card>
       </Col>
     </Row>
+    </>
   );
 };
 

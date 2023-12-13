@@ -4,6 +4,9 @@ const invoicesSlice = createSlice({
   name: "invoices",
   initialState: [],
   reducers: {
+    bulkUpdate: (state,action) =>{
+      return action.payload
+    },
     addInvoice: (state, action) => {
       state.push(action.payload);
     },
@@ -25,6 +28,7 @@ export const {
   addInvoice,
   deleteInvoice,
   updateInvoice,
+  bulkUpdate,
 } = invoicesSlice.actions;
 
 export const selectInvoiceList = (state) => state.invoices;

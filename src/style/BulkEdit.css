@@ -1,0 +1,22 @@
+.bulkInput{
+    width: 100px;
+    border: 0px;
+    position: relative;
+    height: 100%;
+    outline: none;
+    font-size: 14px;
+}
+
+
+
+td,th,tr{
+    /* border: 1px solid red; */
+    padding: 0;
+    text-align: center;
+}
+
+.bulklink,.savebulk{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
