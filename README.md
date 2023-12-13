@@ -1,8 +1,6 @@
 <h1>Invoice Management System</h1>
-<hr>
 Swipe-Assignment is a smart invoicing tool that makes creating invoices a breeze. With this app, you can generate invoices in seconds without breaking a sweat. It uses ReactJs to create a user-friendly interface, Redux to manage data efficiently, and Bootstrap to make everything look good.
-Installation and Setup
-<hr>
+<h2>Installation and Setup</h2>
 To effortlessly set up Swipe-Assignment on your local environment, follow these steps:
 <pre>
 Clone the repository:
@@ -19,7 +17,6 @@ Launch the application in your default web browser.
 <h2>
   Bulk Edit Feature:
 </h2>
-<hr>
 <b>Bulk Edit Access:</b> Easily access the Bulk Edit feature with a dedicated button on the invoice list screen for an intuitive experience.
 <b>Effortless Editing:</b> Edit multiple invoices in an Excel-like table effortlessly, streamlining and reducing manual effort.
 <b>Data Integrity:</b> Ensure data integrity by validating changes during bulk edits, seamlessly updating the Redux store to maintain accuracy.
